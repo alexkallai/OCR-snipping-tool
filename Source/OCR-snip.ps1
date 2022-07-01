@@ -158,9 +158,6 @@ if($tesseractOutput -ne $null -and $tesseractOutput -ne "")
         [System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms')
         [System.Windows.Forms.MessageBox]::Show('There was no readable text in the selected area','WARNING')
 }
-#Check if the output is empty -eq : equal
-# If empty, paste error message
-#if($tesseractOutput -eq $null -or $tesseractOutput -eq "")
 
 # Delete the temporary image
 if (Test-Path $tempImageFullPath) {

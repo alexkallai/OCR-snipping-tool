@@ -3,16 +3,20 @@ A productivity tool for Windows 10 and higher to just snip a part of the screen 
 
 The tool captures the image, passes it to Tesseract, and the output of the character recogition is then put to clipboard
 
+# Video
+
+> https://www.youtube.com/watch?v=n5_0nejUqEI
+
 # Requirements
-For usage:
+**For usage:**
 
-Tesseract installer for Windows (https://github.com/UB-Mannheim/tesseract/wiki)
+- Tesseract installer for Windows (https://github.com/UB-Mannheim/tesseract/wiki)
 
-Windows Snipping tool
+- Windows Snipping tool
 
-For deployment:
+**For deployment:**
 
-Powershell ps2exe module
+- Powershell ps2exe module
 
 # Description
 
