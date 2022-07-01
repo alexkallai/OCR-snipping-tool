@@ -1,0 +1,8 @@
+# Install ps2exe module
+Install-Module ps2exe
+
+# Set powershell executionpolicy so it can run the installed module
+set-executionpolicy remotesigned
+
+# With the noConsole switch while the exe runs, no cmd window will appear
+Invoke-ps2exe .\OCR-snip.ps1 .\OCR-snip.exe -noConsole
